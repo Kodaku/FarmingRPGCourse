@@ -1,4 +1,12 @@
-﻿public enum ToolEffect
+﻿public enum InventoryLocation
+{
+    player,
+    chest,
+    count,
+    none
+}
+
+public enum ToolEffect
 {
     none,
     watering

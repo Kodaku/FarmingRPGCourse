@@ -23,8 +23,18 @@ public class Item : MonoBehaviour
         }
     }
 
-    public void Init(int itemCode)
+    public void Init(int itemCodeParam)
     {
+        if(itemCodeParam != 0)
+        {
+            ItemCode = itemCodeParam;
+            ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(ItemCode);
+            spriteRenderer.sprite = itemDetails.itemSprite;
 
+            if(itemDetails.itemType == ItemType.Reapable_scenery)
+            {
+                gameObject.AddComponent<ItemNudge>();
+            }
+        }
     }
 }
