@@ -45120,6 +45120,7 @@ GameObject:
   - component: {fileID: 79209748}
   - component: {fileID: 79209750}
   - component: {fileID: 79209749}
+  - component: {fileID: 79209751}
   m_Layer: 0
   m_Name: BoolDiggable
   m_TagString: Untagged
@@ -45226,6 +45227,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &79209751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79209747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2835b3c6096f4e820ed9a40c2af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: aaba0825bbc132a45bbeab2a58da18c0, type: 2}
+  gridBoolProperty: 0
 --- !u!1001 &93067232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45993,6 +46008,7 @@ GameObject:
   - component: {fileID: 194922790}
   - component: {fileID: 194922792}
   - component: {fileID: 194922791}
+  - component: {fileID: 194922793}
   m_Layer: 0
   m_Name: BoolCanPlaceFurniture
   m_TagString: Untagged
@@ -46099,6 +46115,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &194922793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194922789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2835b3c6096f4e820ed9a40c2af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: aaba0825bbc132a45bbeab2a58da18c0, type: 2}
+  gridBoolProperty: 2
 --- !u!4 &195726197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3827356721569746944, guid: 2a334f35eed78e34c9fc5d3b1a6c0e94,
@@ -46341,6 +46371,7 @@ GameObject:
   - component: {fileID: 234749794}
   - component: {fileID: 234749796}
   - component: {fileID: 234749795}
+  - component: {fileID: 234749797}
   m_Layer: 0
   m_Name: BoolNPCObstacle
   m_TagString: Untagged
@@ -46447,6 +46478,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &234749797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234749793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2835b3c6096f4e820ed9a40c2af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: aaba0825bbc132a45bbeab2a58da18c0, type: 2}
+  gridBoolProperty: 4
 --- !u!1001 &234873902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49840,6 +49885,7 @@ GameObject:
   - component: {fileID: 740852564}
   - component: {fileID: 740852566}
   - component: {fileID: 740852565}
+  - component: {fileID: 740852567}
   m_Layer: 0
   m_Name: BoolPath
   m_TagString: Untagged
@@ -49946,6 +49992,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &740852567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740852563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2835b3c6096f4e820ed9a40c2af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: aaba0825bbc132a45bbeab2a58da18c0, type: 2}
+  gridBoolProperty: 3
 --- !u!1001 &749177382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58471,6 +58531,7 @@ GameObject:
   - component: {fileID: 1322631935}
   - component: {fileID: 1322631937}
   - component: {fileID: 1322631936}
+  - component: {fileID: 1322631938}
   m_Layer: 0
   m_Name: BoolCanDropItem
   m_TagString: Untagged
@@ -58577,6 +58638,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1322631938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322631934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2835b3c6096f4e820ed9a40c2af3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridProperties: {fileID: 11400000, guid: aaba0825bbc132a45bbeab2a58da18c0, type: 2}
+  gridBoolProperty: 1
 --- !u!1001 &1327967522
 PrefabInstance:
   m_ObjectHideFlags: 0
